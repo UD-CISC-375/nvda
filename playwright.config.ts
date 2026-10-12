@@ -11,7 +11,7 @@ export default defineConfig({
     // Team Y's site. Tests call page.goto('#/...') and Playwright prepends this.
     // The trailing slash matters: without it the relative URL would replace
     // "nvda-dynamic-testing-webpage" instead of being appended after it.
-    baseURL: 'https://mlorang.github.io/nvda-dynamic-testing-webpage/',
+    baseURL: 'https://UD-CISC-375.github.io/nvda-dynamic-testing-webpage/',
   },
   projects: [
     // Default: Playwright clicks the menu button itself.
